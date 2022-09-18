@@ -37,7 +37,7 @@ public class Hesap {
     public double iskontoHesapla() {
         return getToplamMaliyet()-(getToplamMaliyet()*iskontoOrani/100);
     }
-    public void iskontoluFiyatYazdır(){
+    public void iskontoluFiyatYazdir(){
         System.out.println("İskontolu Fiyat "+iskontoHesapla()+" Tl. olarak hesaplanmıştır.");
     }
     public void toplamMaliyetYazdir(){
@@ -46,7 +46,7 @@ public class Hesap {
     public void iskontoTeklifEt(){
         System.out.println("İskonto Yapılsın mı?");
     }
-    public void iskontoDurumuSeç(){
+    public void iskontoDurumuSec(){
         System.out.println("Evet için 1'e Hayır için 2'ye basınız");
     }
 

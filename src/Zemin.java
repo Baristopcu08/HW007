@@ -43,6 +43,6 @@ public class Zemin {
         System.out.println(String.format("%s ölçülerini giriniz",aciklama));
     }
     public void zeminAlanyazdir(){
-        System.out.println(aciklama +" alanı "+alan()+" m².dir");
+        System.out.println(String.format("%s (%5.2f x %5.2f)",aciklama,genislik,uzunluk));
     }
 }

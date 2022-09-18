@@ -18,12 +18,13 @@ public class MainApp {
         hesap.toplamMaliyetYazdir();
         System.out.println();
         hali.haliFiyatYazdir();
-        hesap.iskontoDurumuSeç();
+        hesap.iskontoTeklifEt();
+        hesap.iskontoDurumuSec();
         System.out.println();
         hesap.iskontoDurumu=input.nextInt();
         hesap.x();
         hesap.iskontoOrani=input.nextInt();
-        hesap.iskontoluFiyatYazdır();
+        hesap.iskontoluFiyatYazdir();
 
 
     }
